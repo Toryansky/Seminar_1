@@ -16,6 +16,7 @@ internal class Program
 
         else if (SecondNumber > FirstNumber)
             Console.Write("Второе число больше первого");
+            
         else
             Console.Write("Первое число больше второго");
     }
