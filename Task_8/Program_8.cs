@@ -10,6 +10,8 @@ internal partial class Program
 
         int i;
         for (i = 2; i <= Number; i += 2)
+        {
             Console.WriteLine(i);
+        }
     }
 }
