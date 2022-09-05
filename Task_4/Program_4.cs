@@ -16,10 +16,15 @@ internal class Program
         
         int max;
         max = FirstNumber;
+
         if (FirstNumber < SecondNumber)
+        {
         max = SecondNumber;
+        }
         if (ThirdNumber > max)
+        {
         max = ThirdNumber;
+        }
     
         Console.Write("Максимальное число ");
         Console.Write(max);
