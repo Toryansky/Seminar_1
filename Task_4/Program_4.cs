@@ -19,11 +19,11 @@ internal class Program
 
         if (FirstNumber < SecondNumber)
         {
-        max = SecondNumber;
+            max = SecondNumber;
         }
         if (ThirdNumber > max)
         {
-        max = ThirdNumber;
+            max = ThirdNumber;
         }
     
         Console.Write("Максимальное число ");
