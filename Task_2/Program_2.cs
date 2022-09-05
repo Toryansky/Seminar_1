@@ -12,12 +12,16 @@ internal class Program
         int SecondNumber = Convert.ToInt32(Console.ReadLine());
 
         if (SecondNumber == FirstNumber)
+        {
             Console.Write("Второе число равно первому");
-
+        }
         else if (SecondNumber > FirstNumber)
+        {
             Console.Write("Второе число больше первого");
-            
+        }   
         else
+        {
             Console.Write("Первое число больше второго");
+        }
     }
 }
