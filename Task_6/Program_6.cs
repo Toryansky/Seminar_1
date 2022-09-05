@@ -8,7 +8,11 @@ internal partial class Program
         Console.WriteLine("Введите число для проверки и нажмите Enter");
         int Number = Convert.ToInt32(Console.ReadLine());
 
-        if (Number % 2 == 0)
+        if (Number == 0)
+        {
+            Console.WriteLine("0 не относится ни к чётным ни к нечётным числам");
+        }
+        else if (Number % 2 == 0)
         {
             Console.WriteLine("Введенное число чётное");
         }
@@ -16,5 +20,6 @@ internal partial class Program
         {
             Console.WriteLine("Введенное число нечётное");
         }
+        
     }
 }
