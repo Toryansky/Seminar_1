@@ -9,8 +9,12 @@ internal partial class Program
         int Number = Convert.ToInt32(Console.ReadLine());
 
         if (Number % 2 == 0)
+        {
             Console.WriteLine("Введенное число чётное");
+        }
         else if (Number % 2 != 0)
+        {
             Console.WriteLine("Введенное число нечётное");
+        }
     }
 }
